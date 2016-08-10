@@ -18,4 +18,9 @@ public class JspController {
     public String jspTest() {
         return "test";
     }
+
+    @RequestMapping(value="/jspUserInterface")
+    public String jspUserInterface() {
+        return "userInterface";
+    }
 }

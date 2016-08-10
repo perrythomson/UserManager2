@@ -17,7 +17,7 @@ public class JsonRestController {
     public String index() {
         return "<h1>Greetings from Spring Boot!</h1>" +
                 "Use the following Commands:<br><br>" +
-                "CREATE USER: /rest/createUser?email=[email]&name=[name]<br>" +
+                "CREATE USER: /rest/createUser?email=[email]&name=[name]<br>" +  //each identify url pathway
                 "GET ALL USERS: /rest/getAllUsers<br>" +
                 "GET USER BY ID: /rest/getUser?id=[id]<br>" +
                 "GET USER BY EMAIL: /rest/getUserByEmail?email=[email]<br>" +
